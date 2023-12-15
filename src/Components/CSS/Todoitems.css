@@ -1,0 +1,31 @@
+.checkbox-icon {
+    width: 23px;
+    height: 23px;
+}
+.checkbox-check-icon {
+    width: 35px;
+    height: 35px;
+}
+.trash-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.todoitems {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+}
+.todoitems-container {
+    display: flex;
+}
+.todoitems-text {
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+.line-through {
+    text-decoration: line-through solid #ADADAD 3px;
+}
